@@ -62,19 +62,7 @@ const Login = () => {
             Track expenses, manage budgets, and achieve your financial goals with ease.
           </p>
         </div>
-        {/* Stats */}
-        <div className="relative grid grid-cols-3 gap-4">
-          {[
-            { label: 'Users', value: '50K+' },
-            { label: 'Transactions', value: '2M+' },
-            { label: 'Saved', value: '$10M+' },
-          ].map(s => (
-            <div key={s.label} className="bg-white/10 backdrop-blur-sm rounded-2xl p-4">
-              <p className="text-2xl font-bold text-white">{s.value}</p>
-              <p className="text-white/60 text-sm">{s.label}</p>
-            </div>
-          ))}
-        </div>
+
       </div>
 
       {/* Right panel */}
